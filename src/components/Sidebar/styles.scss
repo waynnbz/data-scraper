@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 64px;
+  min-height: 100vh;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset -1px 0px 0px #eaeaea;
+  opacity: 1;
+
+  align-items: center;
+
+  .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin: 12px;
+    background-color: #0e3570;
+    border-radius: 50%;
+    font-size: 26px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+
+  .items {
+    justify-content: center;
+    background-color: lightblue;
+  }
+}
